@@ -1,0 +1,43 @@
+the first 100 even numbers
+
+
+ public class First100EvenNumbers {
+    public static void main(String[] args) {
+        int count = 0;
+        int number = 2;
+
+        while (count < 100) {
+            System.out.println(number);
+            number += 2; // Move to the next even number
+            count++;
+        }
+    }
+}
+
+
+from line 4 to line 15 is the code 
+
+now we first declare a variable count with integer as datatype and assigned the value of 0 to it
+
+then another varaible with integer as datatype and an assigned value of 2
+
+now here is where the logic comes in
+
+so using the While loop 
+
+our condition is "(count < 100)"
+
+then our code block 
+{
+            System.out.println(number);
+            number += 2; // Move to the next even number
+            count++;
+        }
+
+        now the "System.out.println(number);" prints the value in the variable number
+
+then again number += 2; // Move to the next even number
+
+and finally we count++ which will  run the loop again to see if the new value of count is < 100
+
+
